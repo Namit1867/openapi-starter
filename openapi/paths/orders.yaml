@@ -85,3 +85,10 @@ post:
       $ref: ../components/responses/Forbidden.yaml
     '500':
       $ref: ../components/responses/InternalServerError.yaml
+
+
+
+  Returns items where any of the searchable fields contain the search term as a substring.
+required: false
+schema:
+  type: string

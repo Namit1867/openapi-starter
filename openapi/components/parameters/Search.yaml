@@ -6,8 +6,3 @@ description: |-
   **Fields searched depend on the endpoint:**
   - **Menu items:** `name`, `photoTextDescription`
   - **Orders:** `customerName`, `id`
-
-  Returns items where any of the searchable fields contain the search term as a substring.
-required: false
-schema:
-  type: string
